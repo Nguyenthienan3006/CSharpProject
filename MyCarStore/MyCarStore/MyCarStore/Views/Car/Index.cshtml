@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>My Car Store</h1>
+@foreach (var car in Model)
+{
+    <b>Id: </b> @car.Id
+    <br />
+    <b>Name: </b> @car.Name
+    <br />
+    <b>Description: </b> @car.Description
+    <br />
+    <b>Price: </b> @car.Price
+    <br />
+    <br />
+    <hr />
+}
